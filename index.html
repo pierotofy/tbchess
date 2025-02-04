@@ -8,7 +8,6 @@
     <meta name="author" content="TBChess">
     <link rel="icon" type="image/png" href="logo.png">
     <title>St. Petersburg FL Chess Meetup Club - TBChess</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,6 +89,63 @@
           list-style: none;
         }
     </style>
+    <script type="application/ld+json" id="json-ld-script">
+    </script>
+    <script>
+        function getNextMonday() {
+            var date = new Date();
+            date.setDate(date.getDate() + ((1 + 7 - date.getDay()) % 7 || 7));
+            date.setHours(19, 0, 0, 0);
+            return date;
+        }
+        
+        function formatDateISO(date) {
+            return date.toISOString().split(".")[0] + "-05:00";
+        }
+        
+        var nextMonday = getNextMonday();
+        var startDate = formatDateISO(nextMonday);
+        var endDate = formatDateISO(new Date(nextMonday.getTime() + 3 * 60 * 60 * 1000));
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            var eventJson = {
+                "@context": "https://schema.org",
+                "@type": "Event",
+                "name": "Monday Chess Meetup at Driftwood",
+                "description": "Join us every Monday at 7 PM EST for an exciting evening of chess. All skill levels welcome!",
+                "image": "https://tbchess.org/stock1.jpg",
+                "startDate": startDate,
+                "endDate": endDate,
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": {
+                    "@type": "Place",
+                    "name": "TB Chess Club",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "740 Central Ave",
+                        "addressLocality": "St. Petersburg",
+                        "addressRegion": "FL",
+                        "postalCode": "33701",
+                        "addressCountry": "US"
+                    }
+                },
+                "organizer": {
+                    "@type": "Organization",
+                    "name": "TB Chess",
+                    "url": "https://tbchess.org"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock",
+                    "validFrom": startDate
+                }
+            };
+            document.getElementById("json-ld-script").textContent = JSON.stringify(eventJson);
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -141,7 +197,7 @@
     </footer>
     
     <script>
-        let currentIndex = 0;
+        var currentIndex = 0;
         const slides = document.querySelector(".slides");
         const totalSlides = document.querySelectorAll(".slide").length;
         
