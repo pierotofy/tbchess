@@ -113,9 +113,9 @@
     <script type="application/ld+json" id="json-ld-script">
     </script>
     <script>
-        function getNextMonday() {
+        function getNextDay() {
             var date = new Date();
-            date.setDate(date.getDate() + ((1 + 7 - date.getDay()) % 7 || 7));
+            date.setDate(date.getDate() + ((2 + 7 - date.getDay()) % 7 || 7));
             date.setHours(19, 0, 0, 0);
             return date;
         }
@@ -124,9 +124,9 @@
             return date.toISOString().split(".")[0] + "-05:00";
         }
         
-        var nextMonday = getNextMonday();
-        var startDate = formatDateISO(nextMonday);
-        var endDate = formatDateISO(new Date(nextMonday.getTime() + 3 * 60 * 60 * 1000));
+        var nextDay = getNextDay();
+        var startDate = formatDateISO(nextDay);
+        var endDate = formatDateISO(new Date(nextDay.getTime() + 3 * 60 * 60 * 1000));
         
         document.addEventListener("DOMContentLoaded", function() {
             var eventJson = {
