@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" standalone="no"?-->
+
+<svg
+   version="1.0"
+   width="126.01287"
+   height="126.01287"
+   viewBox="0 0 126.01287 72.247379"
+   preserveAspectRatio="xMidYMid "
+   class="svg"
+   id="svg76"
+   sodipodi:docname="tbchess_bg.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   inkscape:export-filename="../../../../../../run/user/1000/gvfs/smb-share:server=192.168.2.251,share=shared/tbchess_bg_high.png"
+   inkscape:export-xdpi="1600"
+   inkscape:export-ydpi="1600"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs80" />
+  <sodipodi:namedview
+     id="namedview78"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="3.7853783"
+     inkscape:cx="13.472894"
+     inkscape:cy="88.498419"
+     inkscape:window-width="1920"
+     inkscape:window-height="1049"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g55343"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     transform="matrix(0.1,0,0,-0.1,-86.993565,82.490551)"
+     fill="#9a9a9a"
+     stroke="none"
+     id="g74" />
+  <g
+     id="g55343"
+     transform="translate(-86.993565,-52.392195)">
+    <circle
+       style="fill:#77bfff;stroke:#1a1a1a;stroke-width:5.76139;fill-opacity:1"
+       id="path264"
+       cx="150"
+       cy="88.515884"
+       r="60.12574" />
+    <g
+       transform="matrix(0.09147093,0,0,-0.09147093,47.261907,168.45194)"
+       fill="#040404"
+       stroke="none"
+       id="g72">
+      <path
+         class="node"
+         id="node1"
+         d="m 1099,1244 c -13,-15 -58,-52 -99,-84 C 855,1049 825,999 833,882 c 2,-42 10,-105 16,-139 11,-58 6,-107 -13,-153 -5,-11 3,-19 25,-27 17,-7 33,-21 36,-32 5,-20 12,-21 210,-21 h 206 l -5,45 c -8,62 -48,140 -110,209 l -52,59 53,-7 c 30,-4 82,-18 115,-32 l 61,-25 53,55 c 56,58 64,81 31,91 -11,4 -57,45 -102,91 -45,46 -101,94 -124,105 -36,18 -43,25 -43,50 0,35 -20,76 -47,102 -19,16 -21,16 -44,-9 z" />
+      <path
+         class="node"
+         id="node3"
+         d="m 885,470 c -16,-26 14,-30 216,-30 202,0 209,1 209,20 0,19 -7,20 -209,20 -129,0 -212,-4 -216,-10 z" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:29.0549px;line-height:0.05;font-family:'Adobe Garamond Pro';-inkscape-font-specification:'Adobe Garamond Pro';letter-spacing:3.22494px;word-spacing:0px"
+       id="text6168"
+       transform="matrix(-0.6077557,-0.25421551,0.25421551,-0.6077557,218.75882,179.30479)"><textPath
+         xlink:href="#path264"
+         id="textPath9874"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.0549px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold'"><tspan
+           id="tspan6166"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.0549px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold'"
+           dx="0">TBCHESS</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.35957px;line-height:0.05;font-family:'Adobe Garamond Pro';-inkscape-font-specification:'Adobe Garamond Pro';letter-spacing:0.927873px;word-spacing:0px;stroke-width:0.287717"
+       id="text35089"
+       transform="rotate(-0.15663417)"
+       x="126.21437"
+       y="138.22444"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';stroke-width:0.287717"
+         id="tspan38086">Est.2021</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;line-height:1.25;font-family:'Adobe Garamond Pro';-inkscape-font-specification:'Adobe Garamond Pro';letter-spacing:0px;word-spacing:0px"
+       x="121.65176"
+       y="19.806662"
+       id="text62593"><tspan
+         sodipodi:role="line"
+         id="tspan62591" /></text>
+  </g>
+</svg>
